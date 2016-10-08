@@ -13,5 +13,6 @@ sublime-gulp.log
 # Other
 node_modules/
 jspm_packages/
+typings/
 build/
 npm-debug.log*

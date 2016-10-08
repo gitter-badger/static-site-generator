@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "outDir": "./build/assets/js",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "ES5"
+    },
+    "include": [
+        "source/assets/scripts/**/*.ts"
+    ],
+    "exclude": [
+        "source/assets/scripts/**/*.spec.ts",
+        "source/assets/scripts/_modules",
+        "node_modules"
+    ]
+}

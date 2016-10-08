@@ -12,7 +12,8 @@
 3. Set the live URL in the [.htaccess](../source/.htaccess#L42) for an 404 error redirect
 4. Add deployment targets to the [config.js](../_gulpfile/config.js#L17)
 5. Run `npm install`
-6. Run `npm start`
+6. (Optional) `npm install -g gulp typescript`
+7. Run `npm start`
 
 ## Enable Sentry/Raven.js
 1. Create a new project on Sentry and add your public DSN to [scripts.js](../source/assets/scripts/scripts.js#L1)
